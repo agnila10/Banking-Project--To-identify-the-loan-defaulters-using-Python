@@ -1,0 +1,58 @@
+==========UNIVARIATE CATEGORICAL VARIABLE ANALYSIS==========
+
+NAME_CONTRACT_TYPE:
+~ Most of the customers have been taken cash loan
+~ Customers who've taken cash loans are less likely to default
+
+CODE_GENDER:
+~ Most of the loans have been taken by females
+~ Default rate for females are just ~7% which is safer and lesser than male
+
+NAME_TYPE_SUITE:
+~ Unaccompanied people had most of the loans and the default rate is ~8% which is still okay
+
+NAME_INCOME_TYPE:
+~ The safest segments are working, commercial associates and pensioners
+
+NAME_EDUCATION_TYPE:
+~ Higher education is the safest segment to give the loan with a default rate of less than 5%
+
+NAME_FAMILY_STATUS:
+~ Married people are safe to target, default rate is 8%
+
+NAME_HOUSING_TYPE:
+~ People having house/apartment are safe to give the loan with default rate of ~8%
+
+OCCUPATION_TYPE:
+~ Low-skill loborers and drivers are the highest defaulters
+~ Accountants are less defaulters
+~ Core staff, Managers and Laborera are safer to target with a default rate of <= 7.5 to 10%
+
+ORGANIZATION_TYPE:
+~ Transport type 3 highest defaulter
+~ Others, Business Entity Type 3, Self Employed are good to go with default rate around 10%
+blob:vscode-webview://0rd29r4j0nip6iev2f016i5fe8vejnisdle7fcdu2pe87gsnpjd2/a155b435-e8cf-4e72-a5bd-38c820ea3e36
+==========UNIVARIATE NUMERIC VARIABLE ANALYSIS==========
+
+>>Most of the loans were given for the goods price ranging between 0 to 1 Million
+>>Most of the loans were given for the credit amount of 0 to 1 Million
+>>Most of the customers were paying annuity of 0 to 50K
+>>Mostly the customers have income between 0 to 1 Million
+
+==========BIVARIATE ANALYSIS==========
+
+>>AMT_CREDIT and AMT_GOODS_PRICE are linearly corelated. If the AMT_CREDIT increases, the number of defaulters are decrease
+
+>>People having income less than or equals to 1 Million are more like to take loans out of which who are taking loan of less than 1.5 Million could turn out to be defaulters. We can target income below 1 Million and loan amount greater than 1.5 Million
+
+>>People having children 1 to less than 5 are safer to give the loans
+>>People who can pay the annuity of 100K are more likely to get the loan and that's upto less than 2 Million(safer segment)
+
+============ANALYSIS ON MERGED DATA==========
+
+>>For the repairing purpose customers had applied mostly previously and the same purpose has most number of cancellations
+
+>>Most of the applicants were previously either canceled or refused 80-90% of them are repaired in the current data
+
+>>Offers which were unused previously now have maximum number of defaulters despite of having high income band customers
+
